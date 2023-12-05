@@ -1,7 +1,7 @@
 /* Styling the Body element i.e. Color, 
         Font, Alignment */ 
         body {
-            background-color: #05c46b;
+            background:linear-gradient(url("https://assets.editorial.aetnd.com/uploads/2009/10/christmas-gettyimages-184652817.jpg"));
             font-family: Verdana;
             text-align: center;
         }
