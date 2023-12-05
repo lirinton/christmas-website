@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body,html {
     padding:0px;
     margin:0px;
@@ -6,6 +7,11 @@ body,html {
     color:#fff;
     background:rgb(0, 0, 0);
     scroll-behavior: smooth;
+=======
+.nav {
+    display: flex;
+    justify-content: flex-end;
+>>>>>>> 274da126281767529363c6b70959f1994b6c2cb5
 }
 #loading {
     width: 100vw;
