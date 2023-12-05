@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>
+        Christmas
+    </title>
+    <link rel="stylesheet" href="styles/quest.css" />
+    
+</head>
+  
+<body>
+    <h1>Christmas</h1>
+  
+    <!-- Create Form -->
+    <form id="form">
+ 
+        <!-- Details -->
+        <div class="form-control">
+            <label for="name" id="label-name">
+                What is your favourite Christmas tradition?
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="name"
+                   placeholder="Christmas tradition" />
+        </div>
+  
+        <div class="form-control">
+            <label for="email" id="label-email">
+                What is your best memory from christmas?
+            </label>
+ 
+            <!-- Input Type Email-->
+            <input type="text"
+                   id="email"
+                   placeholder="Christmas food" />
+        </div>
+  
+        <div class="form-control">
+            <label for="age" id="label-age">
+                Where do you spend your holyday?
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="age"
+                   placeholder="Enter your age" />
+        </div>
+  
+        <div class="form-control">
+            <label for="role" id="label-role">
+                Which option best describes you?
+            </label>
+             
+            <!-- Dropdown options -->
+            <select name="role" id="role">
+                <option value="student">Christmas Fanatic</option>
+                <option value="intern">I don´t care about christmas</option>
+                <option value="professional">
+                    Grinch
+                </option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+  
+        <div class="form-control">
+            <label>
+                Do you have a chirstmas tree?
+            </label>
+ 
+            <!-- Input Type Radio Button -->
+            <label for="recommed-1">
+                <input type="radio"
+                       id="recommed-1"
+                       name="recommed">Yes</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio"
+                       id="recommed-2"
+                       name="recommed">No</input>
+            </label>
+            <label for="recommed-3">
+                <input type="radio"
+                       id="recommed-3"
+                       name="recommed">Maybe</input>
+            </label>
+        </div>
+  
+        <div class="form-control">
+            <label>What christmas foods do you like?
+                <small>(Check all that apply)</small> 
+                <!--
+                    Prime rib. !
+                    The Christmas Turkey. !
+                    Stuffing. !
+                    Cranberry sauce. !
+                    Mashed potatoes. !
+                    Christmas Cornbread. !
+                    Biscuits.
+                    Sweet potato casserole.
+                -->
+            </label>
+            <!-- Input Type Checkbox -->
+            <label for="inp-1">
+                <input type="checkbox"
+                       name="inp">Prime rib</input></label>
+            <label for="inp-2">
+                <input type="checkbox"
+                       name="inp">The Christmas Turke</input></label>
+            <label for="inp-3">
+                <input type="checkbox"
+                       name="inp">Stuffing</input></label>
+            <label for="inp-4">
+                <input type="checkbox"
+                       name="inp">Cranberry sauce</input></label>
+            <label for="inp-5">
+                <input type="checkbox"
+                       name="inp">Mashed potatoes</input></label>
+            <label for="inp-6">
+                <input type="checkbox"
+                       name="inp">Christmas Cornbread</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">Biscuits</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">Sweet potato casserole</input></label>
+        </div>
+  
+        <div class="form-control">
+            <label for="comment">
+                What is your favourite chirstmas song?
+            </label>
+ 
+            <!-- multi-line text input control -->
+            <textarea name="comment" id="comment"
+                placeholder="Enter the liricks of your favourite song">
+            </textarea>
+        </div>
+  
+        <!-- Multi-line Text Input Control -->
+        <button type="submit" value="submit">
+            Submit
+        </button>
+    </form>
+</body>
+</html>
